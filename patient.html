@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Hospital Management System</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/icomoon.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/bg/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body class="homepage">
+
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="top-number">
+                           <p><i class="fa fa-phone-square"></i> 08182-400500 <img src="images/search_icon.png"></i> hmssmg@gmail.com</p> 
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="social">
+                            <ul class="social-share"> 
+                            </ul>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+					<a class="navbar-brand" href="home.html"><img  src="images/bg/logo.png" alt=""> Lifecare Hospital Center </a>                   
+                </div>
+                <div class="collapse navbar-collapse navbar-right">				
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="home.html" class="dropdown-toggle" data-toggle="dropdown">Home <i></i></a>
+                        </li>
+						<li><a href="doctors.html">Doctors</a></li>						
+						 <li><a href="patient.html">Patient</a></li>
+						<li><a href="pharmacy.html">Pharmacy</a></li>
+						 <li><a href="ourservices.html">Our Services</a></li>
+						 <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Pages<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="pages/4JN18IS113/WEB Assignment/index.html">Vyshak NB</a></li>
+                                <li><a href="pages/4JN18IS080.html">Sameera Nadig</a></li>
+								 <li><a href="pages/4JN18IS067.html">Raghuveera</a></li>
+								 <li><a href="">Shreyas Shenoy</a></li>
+								  <li><a href="pages/4JN18IS066/index.php">Rachana</a></li>
+								  <li><a href="pages/4JN18IS103/4JN18IS103/index.html">Sunil MV</a></li>
+								  <li><a href="pages/4JN18IS068.html">Rakshitha</a></li>
+								   
+                            </ul>
+                        </li>
+						
+                    </ul>
+                </div>
+            </div>			
+        </nav>      
+    </header>
+	<div class="container" >
+	<h1><center><u>PATIENT REGISTRATION</u></center></h1>
+	</div>
+    <div style="margin-bottom:20% ; margin-top:5%" class="container">
+        <form form action="patient.php" method="get">
+           
+            <p style="padding-bottom:20px" ><b>Full Name: <input style="margin-left:50px" type="text"  placeholder="your full name" name='name'></p>
+            <p style="padding-bottom:20px" >Age:  <input style="margin-left:95px" type="number" name='age'> </p>
+            <p style="padding-bottom:20px">Height:  <input style="margin-left:75px"type="number" placeholder="in cms" name='ht'> </p>
+            <p style="padding-bottom:20px">Weight:  <input style="margin-left:74px"type="number" placeholder="in kgs" name='wt'> </p>
+            <p>Gender:  </p>
+            <p style="padding-bottom:20px">Male <input  type="radio" name="g" value="M">   Female <input type="radio" name="g" value="F"> Other <input type="radio" name="g" value="O"></p>
+            <p style="padding-bottom:20px">Blood group:  <input style="margin-left:40px" type="text" name='bg'> </p>
+            <p style="padding-bottom:20px">Phone no:  <input style="margin-left:58px" type="number" name='no'></p>
+			<p style="padding-bottom:20px">Email:  <input style="margin-left:84px" type="text" name='em'> </p>
+			<p style="padding-bottom:20px">Address: <textarea  id="add" placeholder="your full address" name="add" rows="4" cols="40"  style="margin-left:66px"> </textarea> </p>
+			<p style="padding-bottom:20px">Medical history:  <textarea id="mhis" name="mhis" rows="4"  cols="40"  style="margin-left:15px"> </textarea> </p>
+            <input class="btn btn-primary" type="submit" value="Submit">
+            <input class="btn btn-primary" type="reset" value="Reset">
+        </form></b>
+    </div>
+    <section id="bottom">
+        <div class="container fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="home.html" class="footer-logo">
+                    <img src="images/bg/logo.png" alt="logo" style="max-width:150px;height:150px;margin-left:-150px;margin-top:10px"></a>    
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+							 <h3>Lifecare Hospital Center</h3>
+                                <ul>  
+                                    <li><a href="doctors.html">Doctors</a></li>
+                                </ul>								
+                            </div>
+                        </div>                     
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Support</h3>
+                                <ul>
+                                    <li><a href="ourservices.html">Our Service</a></li>
+                                    <li><a href="home.html">24/7 service system</a></li>                                                                     
+                                </ul>
+                            </div>
+                        </div>                      
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Address</h3>
+                                <ul>
+                                    <li><a href="#">Savalanga Road, Navule, Shivamogga-577204</a></li>
+                                    <li><a href="#">17th Main Road, JP Nagar, Banglore-560041</a></li>
+									<li><a href="#">+919444455555</a></li>
+									<li><a href="#">08182-400500</a></li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                     <a target="_blank" href="home.html">Lifecare Hospital Center</a><br>Keeping you well.</br>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="home.html">Home</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
